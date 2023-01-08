@@ -1,15 +1,17 @@
 #!pip install dash_bootstrap_components
 #import dash_core_components as dcc
-import dash_html_components as html
-from dash.dependencies import Input, Output
-import plotly.express as px
-import plotly.graph_objects as go
 import dash
-import dash_bootstrap_components as dbc
-
-import numpy as np
+from dash import html, dcc
+from dash.dependencies import Input, Output
 
 import pandas as pd
+import numpy as np
+ 
+import plotly.express as px
+import plotly.graph_objects as go
+import dash_bootstrap_components as dbc
+
+from dash_bootstrap_templates import load_figure_template
 
 df = pd.read_csv('supermarket_sales.csv')
 
