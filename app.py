@@ -11,7 +11,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 import dash_bootstrap_components as dbc
 
-from dash_bootstrap_templates import load_figure_template
+#from dash_bootstrap_templates import load_figure_template
 
 df = pd.read_csv('supermarket_sales.csv')
 
